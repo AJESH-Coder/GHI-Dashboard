@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-GHI_Data=pd.read_csv("C:/Users/jhaan/OneDrive/Desktop/GHI.CSV")
+GHI_Data=pd.read_csv("ghi.csv")
 GHI_Data.index=GHI_Data.index+1
 
 st.title("Stats Of The Countries")
